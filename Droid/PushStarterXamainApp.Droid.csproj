@@ -87,6 +87,8 @@
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Activities\MessagesActivity.cs" />
+    <Compile Include="Services\MyFirebaseInstanceIdService.cs" />
+    <Compile Include="Services\MyFirebaseMessagingService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -105,6 +107,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Activities\" />
+    <Folder Include="Services\" />
   </ItemGroup>
   <ItemGroup>
     <GoogleServicesJson Include="google-services.json" />
